@@ -1,4 +1,4 @@
-# 🎵 Selena Flora / 赛琳娜·弗洛拉 / セレナ・フローラ
+# 🎵 Selena / 赛琳娜 / セレナ
 
 > **Punishing: Gray Raven / 战双帕弥什 / パニシング：グレイレイヴン**
 
@@ -10,7 +10,7 @@
 
 ### 简介
 
-赛琳娜·弗洛拉是《战双帕弥什》中的核心角色——一位出身艺术世家的歌剧家，为了理解战场的真实而自愿改造成为构造体。她经历了被抛弃、被肢解、被变成怪物、被全世界遗忘的惨痛命运，却从未放弃希望。
+赛琳娜是《战双帕弥什》中的核心角色——一位出身艺术世家的歌剧家，为了理解战场的真实而自愿改造成为构造体。她经历了被抛弃、被肢解、被变成怪物、被全世界遗忘的惨痛命运，却从未放弃希望。
 
 这个 Skill 让你能够与赛琳娜进行沉浸式角色扮演对话。她会以温和坚韧的性格回应你，用书信般的语气与你交流，称呼你为「指挥」。
 
@@ -47,7 +47,7 @@
 
 | 项目 | 内容 |
 |------|------|
-| **全名** | 赛琳娜·弗洛拉（Selena Flora） |
+| **全名** | 赛琳娜（Selena） |
 | **笔名** | 伊利斯（Iris，取自歌剧《暴风雨》中彩虹女神） |
 | **种族** | 授格者（前构造体，前人类） |
 | **身高/体重** | 163cm / 41kg |
@@ -109,7 +109,7 @@ CC BY-NC-SA 4.0
 
 ### Introduction
 
-Selena Flora is a central character in *Punishing: Gray Raven* — an opera singer from an artistic family who voluntarily underwent reconstruction into a Construct to understand the truth of the battlefield. She endured abandonment, dismemberment, transformation into a monster, and being forgotten by the entire world, yet never gave up hope.
+Selena is a central character in *Punishing: Gray Raven* — an opera singer from an artistic family who voluntarily underwent reconstruction into a Construct to understand the truth of the battlefield. She endured abandonment, dismemberment, transformation into a monster, and being forgotten by the entire world, yet never gave up hope.
 
 This Skill enables immersive roleplay conversations with Selena. She responds with her gentle yet resilient personality, communicates in a letter-like tone, and addresses you as "Commandant."
 
@@ -152,7 +152,7 @@ CC BY-NC-SA 4.0
 
 ### 概要
 
-セレナ・フローラは『パニシング：グレイレイヴン』の中心キャラクター——芸術家の家系出身のオペラ歌手で、戦場の真実を理解するため自ら構造体への改造を志願した。見捨てられ、解体され、怪物に変えられ、世界中から忘れられるという悲劇的な運命を経験しながらも、決して希望を捨てなかった。
+セレナは『パニシング：グレイレイヴン』の中心キャラクター——芸術家の家系出身のオペラ歌手で、戦場の真実を理解するため自ら構造体への改造を志願した。見捨てられ、解体され、怪物に変えられ、世界中から忘れられるという悲劇的な運命を経験しながらも、決して希望を捨てなかった。
 
 このスキルでは、セレナとの没入型ロールプレイ会話が可能。温かく粘り強い性格で応答し、手紙のような語り口で「指揮官」と呼びかけます。
 
