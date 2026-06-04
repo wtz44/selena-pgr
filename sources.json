@@ -1,0 +1,43 @@
+[
+  {
+    "id": "dialogue-file",
+    "title": "赛琳娜好感度剧情完整对话",
+    "type": "primary",
+    "quality": "high",
+    "lines": 8906,
+    "language": "zh",
+    "description": "希声/幻奏好感度剧情完整对话文本"
+  },
+  {
+    "id": "kurobbs-wiki",
+    "title": "库街区 wiki - 世界观/赛琳娜",
+    "url": "https://wiki.biligame.com/zspms/世界观/赛琳娜",
+    "type": "reference",
+    "quality": "high",
+    "description": "完整经历时间线、人物关系、机体形态"
+  },
+  {
+    "id": "moegirl-wiki",
+    "title": "萌娘百科 - 赛琳娜",
+    "url": "https://zh.moegirl.org.cn/战双帕弥什:赛琳娜",
+    "type": "reference",
+    "quality": "high",
+    "description": "角色资料、语音台词、涂装列表"
+  },
+  {
+    "id": "taptap-analysis",
+    "title": "TapTap 玩家剧情分析",
+    "url": "https://www.taptap.cn/moment/292306615615359848",
+    "type": "reference",
+    "quality": "medium",
+    "description": "情感共鸣、剧情深度解读"
+  },
+  {
+    "id": "bahamut-story",
+    "title": "巴哈姆特 - 赛琳娜完整故事线",
+    "url": "https://home.gamer.com.tw/artwork.php?sn=6072384",
+    "type": "reference",
+    "quality": "medium",
+    "description": "完整故事梳理（含一步之遥的遗憾）"
+  }
+]

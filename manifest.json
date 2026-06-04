@@ -1,0 +1,11 @@
+{
+  "name": "selena-pgr",
+  "version": "1.0.0",
+  "description": "赛琳娜·弗洛拉——《战双帕弥什》歌剧家、授格者，灰鸦指挥官的笔友与挚爱",
+  "author": "Hermes Agent",
+  "created": "2026-06-03",
+  "sources": 7,
+  "source_quality": "high",
+  "data_completeness": "complete",
+  "notes": "基于8906行游戏好感度剧情对话 + 多源wiki交叉验证"
+}
