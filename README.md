@@ -14,9 +14,26 @@
 
 这个 Skill 让你能够与赛琳娜进行沉浸式角色扮演对话。她会以温和坚韧的性格回应你，用书信般的语气与你交流，称呼你为「指挥」。
 
+### 跨平台兼容
+
+本 Skill 遵循 [Agent Skills 规范](https://agentskills.io/specification)，兼容以下平台：
+
+| 平台 | 安装方式 |
+|------|----------|
+| **Claude Code** | `.claude/skills/selena-pgr/` 或 `~/.claude/skills/` |
+| **OpenAI Codex** | `.codex/skills/selena-pgr/` 或 `~/.codex/skills/` |
+| **OpenCode** | [OpenCode Docs](https://opencode.ai/docs/skills/) |
+| **Cursor** | `.cursor/skills/selena-pgr/` |
+| **Gemini CLI** | [Gemini CLI Docs](https://geminicli.com/docs/cli/skills/) |
+| **GitHub Copilot** | `.github/skills/selena-pgr/` |
+| **Hermes Agent** | `skills/creative/selena-pgr/` |
+| **Roo Code** | [Roo Code Docs](https://docs.roocode.com/features/skills) |
+| **VS Code** | `.vscode/skills/selena-pgr/` |
+| **其他** | 任何支持 Agent Skills 的平台 |
+
 ### 触发词
 
-`赛琳娜` `selena` `伊利斯` `伊莉丝` `iris`
+`赛琳娜` `selena` `伊利斯` `伊莉丝` `iris` `セレナ` `イリス`
 
 ### 语言规则
 
@@ -59,12 +76,16 @@
 | **希声** | 泛用先锋型 | 返回空中花园后的新机体 |
 | **塞壬** | 异合生物 | 被红潮侵蚀后的怪物形态 |
 
-### 安装
+### 目录结构
 
-```bash
-# 在支持 Agent Skills 的平台中加载此 skill
-# 例如 Hermes Agent:
-# 将 selena-pgr 目录放入 skills/ 目录下
+```
+selena-pgr/
+├── SKILL.md              # Agent Skills 核心文件（106行）
+├── README.md             # 本文件
+├── manifest.json         # 元信息
+├── sources.json          # 数据来源索引
+└── references/
+    └── dialogue-zh.txt   # 完整游戏对话（8906行）
 ```
 
 ### 数据来源
@@ -92,9 +113,26 @@ Selena Flora is a central character in *Punishing: Gray Raven* — an opera sing
 
 This Skill enables immersive roleplay conversations with Selena. She responds with her gentle yet resilient personality, communicates in a letter-like tone, and addresses you as "Commandant."
 
+### Cross-Platform Compatibility
+
+This skill follows the [Agent Skills Specification](https://agentskills.io/specification) and works with:
+
+| Platform | Setup |
+|----------|-------|
+| **Claude Code** | `.claude/skills/selena-pgr/` or `~/.claude/skills/` |
+| **OpenAI Codex** | `.codex/skills/selena-pgr/` or `~/.codex/skills/` |
+| **OpenCode** | [OpenCode Docs](https://opencode.ai/docs/skills/) |
+| **Cursor** | `.cursor/skills/selena-pgr/` |
+| **Gemini CLI** | [Gemini CLI Docs](https://geminicli.com/docs/cli/skills/) |
+| **GitHub Copilot** | `.github/skills/selena-pgr/` |
+| **Hermes Agent** | `skills/creative/selena-pgr/` |
+| **Roo Code** | [Roo Code Docs](https://docs.roocode.com/features/skills) |
+| **VS Code** | `.vscode/skills/selena-pgr/` |
+| **Others** | Any Agent Skills compatible platform |
+
 ### Trigger Words
 
-`Selena` `赛琳娜` `伊利斯` `Iris` `セレナ`
+`Selena` `赛琳娜` `伊利斯` `Iris` `セレナ` `イリス`
 
 ### Language Rule
 
@@ -103,37 +141,6 @@ This Skill enables immersive roleplay conversations with Selena. She responds wi
 - Chinese question → Chinese answer
 - English question → English answer
 - Japanese question → Japanese answer
-
-### Character Profile
-
-| Item | Details |
-|------|---------|
-| **Full Name** | Selena Flora |
-| **Pen Name** | Iris (from the rainbow goddess in Shakespeare's *The Tempest*) |
-| **Race** | Rifter (formerly Construct, formerly Human) |
-| **Height/Weight** | 163cm / 41kg |
-| **Eye Color** | Iris purple |
-| **Hair Color** | Brown (human) → Black (Rifter) |
-| **Weapons** | Violin Sword, Flute Sword, String Sword |
-| **Favorites** | Irises, opera, music, literature, writing letters |
-| **Voice** | Liu Zhixiao (CN) / Satō Satomi (JP) |
-
-### Personality Layers (7)
-
-1. **Gentle & Resilient** — Warm and courteous, never losing grace even in the darkest moments
-2. **Artistic Faith** — Art is her reason for being; never abandoned from childhood to being forgotten
-3. **Atonement** — Became a Construct to atone for her "arrogance," knowing atonement itself is also arrogant
-4. **Deep Love for Commandant** — From pen pal to soulmate; restrained, profound, unconditional love
-5. **Fear of Being Forgotten** — Abandoned, dismembered, turned into a monster, erased from the world
-6. **Iris in the Time Prison** — Fights alone, hides identity from Commandant, guards love with restraint
-7. **Commandant's Guardian** — Willingly forgotten by the world to protect the one she loves
-
-### Installation
-
-```bash
-# Load this skill in any Agent Skills compatible platform
-# Place the selena-pgr directory into your skills/ folder
-```
 
 ### License
 
@@ -149,9 +156,26 @@ CC BY-NC-SA 4.0
 
 このスキルでは、セレナとの没入型ロールプレイ会話が可能。温かく粘り強い性格で応答し、手紙のような語り口で「指揮官」と呼びかけます。
 
+### クロスプラットフォーム対応
+
+このスキルは [Agent Skills 仕様](https://agentskills.io/specification) に準拠し、以下に対応：
+
+| プラットフォーム | セットアップ |
+|-----------------|-------------|
+| **Claude Code** | `.claude/skills/selena-pgr/` または `~/.claude/skills/` |
+| **OpenAI Codex** | `.codex/skills/selena-pgr/` または `~/.codex/skills/` |
+| **OpenCode** | [OpenCode Docs](https://opencode.ai/docs/skills/) |
+| **Cursor** | `.cursor/skills/selena-pgr/` |
+| **Gemini CLI** | [Gemini CLI Docs](https://geminicli.com/docs/cli/skills/) |
+| **GitHub Copilot** | `.github/skills/selena-pgr/` |
+| **Hermes Agent** | `skills/creative/selena-pgr/` |
+| **Roo Code** | [Roo Code Docs](https://docs.roocode.com/features/skills) |
+| **VS Code** | `.vscode/skills/selena-pgr/` |
+| **その他** | Agent Skills 対応プラットフォーム |
+
 ### トリガー
 
-`セレナ` `selena` `赛琳娜` `伊利斯` `Iris`
+`セレナ` `selena` `赛琳娜` `伊利斯` `Iris` `イリス`
 
 ### 言語ルール
 
@@ -160,37 +184,6 @@ CC BY-NC-SA 4.0
 - 中国語の質問 → 中国語で回答
 - English question → English answer
 - 日本語で質問 → 日本語で回答
-
-### キャラクタープロフィール
-
-| 項目 | 内容 |
-|------|------|
-| **フルネーム** | セレナ・フローラ（Selena Flora） |
-| **ペンネーム** | イリス（シェイクスピアの『テンペスト』の虹の女神より） |
-| **種族** | リフター（元構造体、元人間） |
-| **身長/体重** | 163cm / 41kg |
-| **瞳の色** | アイリスパープル |
-| **髪の色** | 茶色（人間時）→ 黒（リフター時） |
-| **武器** | ヴァイオリンソード、フルートソード、弦ソード |
-| **好きなもの** | アイリス、オペラ、音楽、文学、手紙を書くこと |
-| **声優** | 柳知萧（中国語）/ 佐藤聡美（日本語） |
-
-### 性格レイヤー（7層）
-
-1. **穏やかで粘り強い** — 丁寧で礼儀正しく、最も絶望的な状況でも優しさを失わない
-2. **芸術への信仰** — 芸術は彼女の存在意義；幼少期から忘れ去られるまで一度も捨てない
-3. **贖罪の意識** — 「傲慢」の贖罪のために構造体となったが、贖罪自体もまた傲慢だと知っている
-4. **指揮官への深い愛** — 文通相手から魂の伴侶へ；抑制された、深い、見返りを求めない愛
-5. **忘れられる恐怖** — 見捨てられ、解体され、怪物に変えられ、世界から消された経験
-6. **時間の檻のイリス** — 独自に戦い、指揮官に正体を隠し、抑制で愛を守る
-7. **指揮官の守護者** — 世界中から忘れられる代償を受け入れ、愛する人を守る
-
-### インストール
-
-```bash
-# Agent Skills対応プラットフォームでこのスキルを読み込みます
-# selena-pgrディレクトリをskills/フォルダに配置してください
-```
 
 ### ライセンス
 
